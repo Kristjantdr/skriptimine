@@ -1,0 +1,6 @@
+#!/bin/bash
+# Script väljastab kasutajale tervituse
+
+echo -n "Tere, "
+echo -n `whoami` 
+echo "!"
