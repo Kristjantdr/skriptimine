@@ -1,0 +1,13 @@
+#!/bin/bash
+#arvutamine ja ümardamine
+
+echo -n "Sisestage ainepunktide arv:"
+read x
+
+echo -n "Sisestage nädalate arv:"
+read y
+
+sum=`expr $x*26`
+echo 
+
+
