@@ -1,5 +1,6 @@
 #!/bin/bash
 #tänane kuupäev
+echo 
 echo -n "Täna on "
 date +"%A, %B %d, %Y"
 date +"Kell on %H:%M"
