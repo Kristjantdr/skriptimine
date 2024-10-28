@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#muutujate tegemine
+
+aastal=2016
+president="Kersti Kaljulaid"
+
+echo "$aastal. aastal valiti Eesti presidendiks $president."
