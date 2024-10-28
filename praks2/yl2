@@ -1,0 +1,8 @@
+#!/bin/bash
+#tänane kuupäev
+echo -n "Täna on "
+date +"%A, %B %d, %Y"
+date +"Kell on %H:%M"
+echo 
+date +"%B %Y kalender"
+cal | tail -n 7
