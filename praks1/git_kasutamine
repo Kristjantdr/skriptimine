@@ -29,3 +29,5 @@ põhikasutamine:
 
 a) pane fail jälgimisele:
 git add failinimi
+git commit -m "kirjeldus"
+git push -uf skriptimine master
