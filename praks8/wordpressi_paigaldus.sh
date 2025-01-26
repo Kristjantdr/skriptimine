@@ -112,8 +112,8 @@ cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
 
 # Uuendame wp-config.php andmebaasi andmetega
 
-sed -i "s/database_name_here/$dbname/" /var/www/html/wp-config.php
-sed -i "s/username_here/$dbuser/" /var/www/html/wp-config.php
-sed -i "s/password_here/$userpass/" /var/www/html/wp-config.php
+sed -i "s/database_name_here/$ABnimi/" /var/www/html/wp-config.php
+sed -i "s/username_here/$Knimi/" /var/www/html/wp-config.php
+sed -i "s/password_here/$Kparool/" /var/www/html/wp-config.php
 
 echo "WordPress on edukalt paigaldatud! Palun minge oma brauserisse ja avage http://192.168.42.75/install.php, et lõpule viia installimine."
